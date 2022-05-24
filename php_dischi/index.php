@@ -98,17 +98,6 @@ include __DIR__ . '/db.php';
         
     </main>
 
-
-
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>
