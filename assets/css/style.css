@@ -1,0 +1,84 @@
+:root {
+    --ds-primary: #2e3a46;
+    --ds-dark: #1e2d3b;
+    --ds-light-dark: #70797e;
+    --ds-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    
+  }
+
+  img {
+    max-width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+    background-color: var(--ds-primary);
+    height: 100px;
+
+}
+
+.logo {
+    padding: 0.5rem 2rem;
+}
+
+.col-4 {
+    background-color: var(--ds-primary);
+    padding-right: 2rem;
+}
+
+.form-control {
+    background-color: var(--ds-white);
+}
+
+/* MAin */
+
+main {
+    min-height: calc(100vh - 100px);
+    background-color: var(--ds-dark);
+    padding-top: 2rem;
+}
+
+
+h2,
+h3 {
+    color: var(--ds-white);
+}
+
+/* Card */
+
+
+main .col {
+    height: 28rem;
+
+}
+
+.card_album {
+    min-height: 100%;
+    background-color: var(--ds-primary);
+
+}
+
+main .col img {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.col h4 {
+    color: var(--ds-white);
+}
+
+.info_album {
+    color: var(--ds-light-dark);
+}
